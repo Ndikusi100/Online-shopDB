@@ -1,3 +1,4 @@
+
 *Q1: Retrieve Payment Information*
 SELECT checkNumber, paymentDate, amount
 FROM payments;
