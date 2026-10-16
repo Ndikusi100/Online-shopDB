@@ -20,8 +20,4 @@ SELECT productName, quantityInStock, MSRP
 FROM products
 ORDER BY MSRP ASC
 LIMIT 5;
-_If your Q5 says `buyPrice` instead of `MSRP`, just change that one word:_
-SELECT productName, quantityInStock, buyPrice
-FROM products
-ORDER BY buyPrice ASC
-LIMIT 5;
+
